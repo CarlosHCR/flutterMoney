@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "676424367905",
+    "project_id": "prova-f3cb2",
+    "storage_bucket": "prova-f3cb2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:676424367905:android:c08f77658cfcfba01a0860",
+        "android_client_info": {
+          "package_name": "com.example.prova_2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRd6aiIFf8ZUUFFTfwkkmNz0SahpA6y8o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
