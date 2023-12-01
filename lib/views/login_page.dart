@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:prova_2/utils/validation_utils.dart';
 import 'package:prova_2/services/user_service.dart';
-import 'package:prova_2/views/register_page.dart';
 import 'package:prova_2/views/home_page.dart';
+import 'package:prova_2/views/register_page.dart';
 
 class LoginPage extends StatefulWidget {
   @override
@@ -52,7 +52,10 @@ class _LoginPageState extends State<LoginPage> {
                           .then((user) {
                         Navigator.pushReplacement(
                           context,
-                          MaterialPageRoute(builder: (context) => HomePage()),
+                          MaterialPageRoute(
+                              builder: (context) => HomePage(
+                                    user: user,
+                                  )),
                         );
                       }).catchError((error) {
                         ScaffoldMessenger.of(context).showSnackBar(

@@ -1,4 +1,3 @@
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:prova_2/views/register_page.dart';
@@ -12,10 +11,7 @@ void main() async {
           messagingSenderId: "676424367905",
           projectId: "prova-f3cb2"));
 
-  FirebaseAuth.instance.signInWithEmailAndPassword(
-      email: "carloshcr5@gmail.com", password: "@Senac1234");
-  print(FirebaseAuth.instance.currentUser);
-  print("test");
+
   runApp(const MyApp());
 }
 
